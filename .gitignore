@@ -1,0 +1,8 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore specific files containing secrets
+__pycache__/        # Ignore Python bytecode cache directories

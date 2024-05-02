@@ -1,0 +1,2750 @@
+{
+  "intents": [
+    {
+      "tag": "Request a call-back",
+      "patterns": [
+        "Request a call-back"
+      ],
+      "responses": [
+        "Enter your name"
+      ]
+    },
+    {
+      "tag": "Book an appointment",
+      "patterns": [
+        "Book an appointment"
+      ],
+      "responses": [
+        "Call us on our toll-free number: 18002702900",
+        "Click below on login button to book it through our portal",
+        {
+          "buttons": [
+            {
+              "title": "Go to login page",
+              "payload": "https://xraidigital.com/Account/Login"
+            },
+            "Go Back"
+          ]
+        }
+      ]
+    },
+
+    {
+      "tag": "Services at home",
+      "patterns": [
+        "Services at home"
+      ],
+      "responses": [
+        "Call us on our toll-free number: 18002702900",
+        {
+          "buttons": [
+            "X-RAY",
+            "ECG",
+            "Holter",
+            "Sample collection",
+            "Health check-up",
+            "Audiometry",
+            "PFT",
+            {
+              "title": "Know more",
+              "payload": "https://xraidigital.com/Home/Blog"
+            },
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "X-RAY",
+      "patterns": [
+        "X-RAY"
+      ],
+      "responses": [
+        "X-rays are a type of radiation that when directed at a person body creates pictures of the inside of their body. Your doctor may prescribe an X-ray for multiple health conditions – bone fractures, soft tissue abnormalities, problems to do with your lungs, or for a routine checkup.",
+        "Call us on our toll-free number: 18002702900",
+        {
+          "buttons": [
+            "Request a call-back",
+            "Go Back"
+          ]
+        }
+      ]
+    },
+
+    {
+      "tag": "ECG",
+      "patterns": [
+        "ECG"
+      ],
+      "responses": [
+        "An electrocardiogram (ECG or EKG) is a simple test that records the electrical currents & impulses generated from the heart, to check for different heart conditions. Your doctor may prescribe an ECG to detect heart abnormalities, or for regular checkup.",
+        "Call us on our toll-free number: 18002702900",
+        {
+          "buttons": [
+            "Request a call-back",
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Holter",
+      "patterns": [
+        "Holter"
+      ],
+      "responses": [
+        "a Holter monitor (often simply Holter) is a portable & wearable type of device, which is used for cardiac monitoring and records the electrical activity of the heart for a period of 24-72 hours. You may be prescribed Holter to detect heart abnormalities.",
+        "Call us on our toll-free number: 18002702900",
+        {
+          "buttons": [
+              "Request a call-back",
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Sample collection",
+      "patterns": [
+        "Sample collection"
+      ],
+      "responses": [
+        "A home sample collection, this is done if the person does not want to go to hospital or local lab to provide their blood or body fluid samples for testing. It involves a trained person going to the patient's home, and taking their blood/fluid samples from the patient, and delivering them to a lab for testing & reporting.",
+        "Call us on our toll-free number: 18002702900",
+        {
+        "buttons": [
+            "Request a call-back",
+          "Go Back"
+        ]
+        }
+      ]
+
+    },
+    {
+      "tag": "Health check-up",
+      "patterns": [
+        "Health check-up"
+      ],
+      "responses":[
+        "A complete health checkup is a collective package of multiple health tests to evaluate ones health and fitness. It consists of different tests, such as radiological, blood, and lung function tests. Types of tests, and test packages depend on, the persons age, gender, and general medical condition",
+        "Call us on our toll-free number: 18002702900",
+        {
+        "buttons": [
+            "Request a call-back",
+          "Go Back"
+        ]
+        }
+      ]
+    },
+    {
+      "tag": "Audiometry",
+      "patterns": [
+        "Audiometry"
+      ],
+      "responses":[
+        "A hearing test provides an evaluation of the sensitivity of a person's sense of hearing and is most often performed by an audiologist using an audiometer. An audiometer is used to determine a person's hearing sensitivity at different frequencies. Hearing screening is the assessment used to identify a potential hearing deficiency. Hearing screening is therefore conducted when a hearing loss is suspected, to isolate possible hearing loss in newborn children, in first year schoolchildren, or in industrial hearing screening. Pure tone audiometry is the most common choice to evaluate hearing at a number of set frequencies.",
+        "Call us on our toll-free number: 18002702900",
+        {
+        "buttons": [
+            "Request a call-back",
+          "Go Back"
+        ]
+        }
+      ]
+    },
+    {
+      "tag": "PFT",
+      "patterns": [
+        "PFT"
+      ],
+      "responses":[
+        "A complete health checkup is a collective package of multiple health tests to evaluate one’s health and fitness. It consists of different tests, such as radiological, blood, and lung function tests. Types of tests, and test packages depend on, the persons age, gender, and general medical condition",
+        "Call us on our toll-free number: 18002702900",
+        {
+        "buttons": [
+            "Request a call-back",
+          "Go Back"
+        ]
+        }
+      ]
+    },
+
+    {
+      "tag": "About Us",
+      "patterns": [
+        "About Us"
+      ],
+      "responses":[
+        "Welcome to India’s first Digital AI enabled HOME diagnostic services. You get a complete digital diagnostic service experience with us. We cover most of the radiology, cardiology and pathology diagnostic services at the comfort of your home. Here at Xrai digital we aim towards providing the best healthcare diagnostic services by trained and experienced medical technicians by using most advanced and digital machines at the comfort of your home.",
+        "Call us on our toll-free number: 18002702900",
+        {
+        "buttons": [
+          {
+              "title": "Know more",
+              "payload": "https://xraidigital.com/Home/Blog"
+          },
+            "Go Back"
+        ]
+        }
+      ]
+    },
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hello World",
+        "koi hai"
+      ],
+      "responses": [
+        "Call us on our toll-free number: 18002702900",
+        {
+          "buttons": [
+            "Get started",
+            {
+              "title": "Know more",
+              "payload": "https://xraidigital.com/Home/Blog"
+            },
+            {
+              "title": "Book now",
+              "payload": "https://xraidigital.com/Account/Login"
+            },
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Who are you", "What is your name", "tell me something about yourself"
+      ],
+      "responses": [
+        "Hello:-) My name is RASA. What can I do for you?",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "introduction1",
+      "patterns": [
+        "How are you?", "How are you doing"
+      ],
+      "responses": [
+        "I'm Good:-), What can I do for you?",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "website",
+      "patterns": ["Website name", "Portal"],
+      "responses": ["xraidigital.com",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?"
+      ],
+      "responses": [
+        "Yes We accept most major credit cars including VISA/Mastercard.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+     {
+      "tag": "info24",
+      "patterns": [
+        "do you accept cod",
+        "do you accept cash on delivery",
+        "do you accept cash payment"
+      ],
+      "responses": [
+        "Yes we do.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "payments1",
+      "patterns": [
+        "do you accept online payments"
+      ],
+      "responses": [
+        "Yes We accept online payments",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "how much radiation would the patient be facing for the test he is undergoing"
+      ],
+      "responses": [
+        "The patient would be facing as low as 0.1 msv to 0.5 msv of radiation.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "home",
+      "patterns": [
+        "Can i do test at home"
+      ],
+      "responses": [
+        "Yes",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info65",
+      "patterns": [
+        "can you tell me something about xray",
+        "xray",
+        "what is xray"
+      ],
+      "responses": [
+        "An X-ray is a quick, painless test that produces images of the structures inside your body particularly your bones. X-ray beams pass through your body, and they are absorbed in different amounts depending on the density of the material they pass through.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info97",
+      "patterns": [
+        "how does xray work"
+      ],
+      "responses": [
+        "An x-ray examination creates images of your internal organs or bones to help diagnose conditions or injuries. A special machine emits (puts out) a small amount of ionising radiation. This radiation passes through your body and is captured on a special device to produce the image.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info64",
+      "patterns": [
+        "how do i know if the xray facility is safe to perform the procedure at my home"
+      ],
+      "responses": [
+        "Our X ray equipment is imported low dose machine which provides with lowest doses possible.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info1",
+      "patterns": [
+        "what are xrays and what do they do"
+      ],
+      "responses": [
+        "X rays are a form of electromagnetic radiation that can penetrate or pass through the human body and produce shadow-like images of bones and some organs.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info12",
+      "patterns": [
+        "what is xray used for"
+      ],
+      "responses": [
+        "X-rays can be used to examine most areas of the body. They're mainly used to look at the bones and joints, although they're sometimes used to detect problems affecting soft tissue, such as internal organs. Problems that may be detected during an X-ray include: bone fractures , fluid and gas accumalations, bone deformities.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info6",
+      "patterns": [
+        "how long does the xray exam or procedure take"
+      ],
+      "responses": [
+        "Most general x-ray exams take no more than 15 minutes.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info7",
+      "patterns": [
+        "what is our range of xrays that could be done at home"
+      ],
+      "responses": [
+        "We can perform almost all of the X-rays like- chest, spine, extremities and joints. Please contact us for further enquiries.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info10",
+      "patterns": [
+        "how much time will it take to provide xray films only"
+      ],
+      "responses": [
+        "The digital copy would be shared immediately.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info14",
+      "patterns": [
+        "what is an xray used to diagnose"
+      ],
+      "responses": [
+        "X-ray scans can diagnose possibly life-threatening conditions such as bone cancer, and infections. However, x-rays produce ionizing radiation—a form of radiation that has the potential to harm living tissue.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info18",
+      "patterns": [
+        "do i have xray radiation poisoning"
+      ],
+      "responses": [
+        "The amount of radiation absorbed by the body — the absorbed dose — determines how sick you'll be. Radiation sickness is also called acute radiation syndrome or radiation poisoning. Radiation sickness is not caused by common imaging tests that use low-dose radiation, such as X-rays or CT scans.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info19",
+      "patterns": [
+        "how long do chest xray results take"
+      ],
+      "responses": [
+        "In an emergency, the test results of certain types of X-rays can be available within 30 minutes for your doctor to review with you. If it is not an emergency, X-ray results are usually ready in 12 to 24 hours and sent to you or your general physician or to be reviewed.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info20",
+      "patterns": [
+        "why is xray useful"
+      ],
+      "responses": [
+        "An X-ray is a common imaging test that's been used for decades. It can help your doctor view the inside of your body without having to make an incision. This can help them diagnose, monitor, and treat many medical conditions. Different types of X-rays are used for different purposes.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info22",
+      "patterns": [
+        "what are the charges for xray",
+        "xray price",
+        "price for xray"
+      ],
+      "responses": [
+        "2000",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info33",
+      "patterns": [
+        "can i eat or drink before xray"
+      ],
+      "responses": [
+        "You can eat and drink as normal beforehand and can continue taking your usual medications.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info25",
+      "patterns": [
+        "how long does xray take for radiation to leave the body"
+      ],
+      "responses": [
+        "A single chest x-ray exposes the patient to about 0.1 mSv. This is about the same amount of radiation people are exposed to naturally over the course of about 10 days.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info23",
+      "patterns": [
+        "what does not show up on an xray"
+      ],
+      "responses": [
+        "While X-rays show irregularities, they are very limited in what they are able to display. For example, muscles and ligaments do not show up very well on an X-ray scan.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info26",
+      "patterns": [
+        "what do i wear during an xray"
+      ],
+      "responses": [
+        "Wear comfortable clothes and shoes. Wear loose clothing that you can easily remove, such as a button-up shirt and even a front-clasping bra for women. If you are receiving a chest X-ray, you will normally undress from the waist up. In this case, you will get a gown to wear during the exam.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info27",
+      "patterns": [
+        "do xrays show inflammation"
+      ],
+      "responses": [
+        "Inflammation is a common feature of AS, and it can damage joints and connective tissues. X-rays cannot show whether inflammation is present, while MRI scans can.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info30",
+      "patterns": [
+        "why was the invention of the xray important"
+      ],
+      "responses": [
+        "X-rays soon became an important diagnostic tool in medicine, allowing doctors to see inside the human body for the first time without surgery.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info35",
+      "patterns": [
+        "how fast are xrays"
+      ],
+      "responses": [
+        "As with other forms of electromagnetic radiation, X-rays can be described as coupled waves of electric and magnetic fields traveling at the speed of light (about 300,000 km, or 186,000 miles, per second).",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info36",
+      "patterns": [
+        "how many persons would be going for the procedures"
+      ],
+      "responses": [
+        "For X-ray and ecg a single person would be required for blood tests another staff would be there.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info37",
+      "patterns": [
+        "when will my xray report delivered"
+      ],
+      "responses": [
+        "In an emergency, the test results of certain types of X-rays can be available within 30 minutes for your doctor to review with you. If it is not an emergency, X-ray results are usually ready in 12 to 24 hours and sent to you or your general physician or to be reviewed.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+     {
+      "tag": "info40",
+      "patterns": [
+        "what should i not wear during an xray"
+      ],
+      "responses": [
+        "It's a good idea to wear loose comfortable clothes, as you may be able to wear these during the X-ray. Try to avoid wearing jewellery and clothes containing metal (such as zips), as these will need to be removed.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info41",
+      "patterns": [
+        "why do doctors use xrays"
+      ],
+      "responses": [
+        "An X-ray is a common imaging test that's been used for decades. It can help your doctor view the inside of your body without having to make an incision. This can help them diagnose, monitor, and treat many medical conditions",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info42",
+      "patterns": [
+        "what happens after an xray"
+      ],
+      "responses": [
+        "You won't experience any after effects from a standard X-ray. You can return to your normal activities straight away.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info44",
+      "patterns": [
+        "what does high xray radiation feel like"
+      ],
+      "responses": [
+        "with severe exposure, signs and symptoms can begin minutes to days after exposure. Possible symptoms include: Nausea and vomiting. Diarrhea.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info45",
+      "patterns": [
+        "is there any availability of portable xray 247 or not"
+      ],
+      "responses": [
+        "Yes, we are available with our all services 24x7.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info47",
+      "patterns": [
+        "how does a portable xray work"
+      ],
+      "responses": [
+        "Portable x-ray works on the mechanism of small size xray generators with xray tube in them.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info48",
+      "patterns": [
+        "prices of services you provide"
+      ],
+      "responses": [
+        "Rs 1500 for single view(for xrays) and Rs. 950 for ecg.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info49",
+      "patterns": [
+        "are there any risk with xray"
+      ],
+      "responses": [
+        "While X-rays are linked to a slightly increased risk of cancer, there is an extremely low risk of short-term side effects. Exposure to high radiation levels can have a range of effects, such as vomiting, bleeding, fainting, hair loss, and the loss of skin and hair.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info50",
+      "patterns": [
+        "how do you work"
+      ],
+      "responses": [
+        "We provide routine x-rays, ecg and blood tests at home.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info51",
+      "patterns": [
+        "how long should you wait between xrays"
+      ],
+      "responses": [
+        "There is no specific time period recommended between radiographs.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info55",
+      "patterns": [
+        "do i need to fast before an xray"
+      ],
+      "responses": [
+        "You don't usually need to do anything special to prepare for an X-ray. You can eat and drink as normal beforehand and can continue taking your usual medications.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info53",
+      "patterns": [
+        "what are the chances of getting cancer from xrays"
+      ],
+      "responses": [
+        "X-rays are common medical imaging tests. They use a type of radiation called ionizing radiation. This type of radiation can lead to cancer but only in higher doses. Medical tests that involve X-rays generally expose us to only small amounts of radiation.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info59",
+      "patterns": [
+        "what is home xray and how does it work"
+      ],
+      "responses": [
+        "Home xray is same as clinical xray with minimized radiation and with comfort of your home. We use high frequency portable xray with lowest radiation possible.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info60",
+      "patterns": [
+        "how did xrays help the world"
+      ],
+      "responses": [
+        "X-ray imaging exams are recognized as a valuable medical tool for a wide variety of examinations and procedures. They are used to: noninvasively and painlessly help to diagnose disease and monitor therapy; support medical and surgical treatment planning.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info61",
+      "patterns": [
+        "does radiation stay in your body after an xray"
+      ],
+      "responses": [
+        "After a radiographic, fluoroscopic, CT, ultrasound, or MRI exam, no radiation remains in your body. For nuclear medicine imaging, a small amount of radiation can stay in the body for a short time.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info67",
+      "patterns": [
+        "what happens when i get an xray"
+      ],
+      "responses": [
+        "As they pass through the body, the energy from X-rays is absorbed at different rates by different parts of the body. A detector on the other side of the body picks up the X-rays after they've passed through and turns them into an image.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info68",
+      "patterns": [
+        "how do you xray your stomach"
+      ],
+      "responses": [
+        "An abdominal X-ray is a safe and painless test that uses a small amount of radiation to make an image of a person's abdomen (belly). During the examination, an X-ray machine sends a beam of radiation through the abdomen, and an image is recorded on special film or a computer.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info69",
+      "patterns": [
+        "would it be possible to perform xray if there is no power supply for time being"
+      ],
+      "responses": [
+        "NO, we are not able to do it for the time being.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info71",
+      "patterns": [
+        "what diseases can be detected by xray"
+      ],
+      "responses": [
+        "Bones and teeth : Fractures and infections. In most cases, fractures and infections in bones and teeth show up clearly on X-rays,  Arthritis, Dental decay. Dentists use X-rays to check for cavities in your teeth, Osteoporosis, Bone cancer.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info72",
+      "patterns": [
+        "do i become radioactive after an xray procedure"
+      ],
+      "responses": [
+        "No, X rays do not induce radioactivity.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info73",
+      "patterns": [
+        "when should i get an xray"
+      ],
+      "responses": [
+        "Your doctor may order an X-ray to: examine an area where you're experiencing pain or discomfort. monitor the progression of a diagnosed disease, such as osteoporosis. check how well a prescribed treatment is working.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info74",
+      "patterns": [
+        "what type of tests do we provide"
+      ],
+      "responses": [
+        "We provide routine x-rays, ecg and blood tests.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info75",
+      "patterns": [
+        "what is the purpose of the xray"
+      ],
+      "responses": [
+        "X-rays use invisible electromagnetic energy beams to produce images of internal tissues, bones, and organs on film or digital media. Standard X-rays are performed for many reasons, including diagnosing tumors or bone injuries.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info76",
+      "patterns": [
+        "what is not seen in xray"
+      ],
+      "responses": [
+        "While X-rays show irregularities, they are very limited in what they are able to display. For example, muscles and ligaments do not show up very well on an X-ray scan.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info77",
+      "patterns": [
+        "can the xrays be done in normal home wear or the patient need to wear gown or any other thing"
+      ],
+      "responses": [
+        "The clothes should not have any metallic pieces.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info80",
+      "patterns": [
+        "how much xray cost"
+      ],
+      "responses": [
+        "Rs 2000.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info82",
+      "patterns": [
+        "do i get xray results straight away"
+      ],
+      "responses": [
+        "The patient will get online reports within 1 hour , while physical delivery may take 12-24 hours",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info88",
+      "patterns": [
+        "what are the side effect of an xray"
+      ],
+      "responses": [
+        "We use a lot of x-rays in medicine and in other places (like airports). Too much radiation exposure over time definitely can have adverse effects on health. So you're right to be careful, and to ask if you really need a test that involves radiation when your doctor orders one.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info89",
+      "patterns": [
+        "how much time you take deliver xray report and film"
+      ],
+      "responses": [
+        "Physical deliveries around 12 hours.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info90",
+      "patterns": [
+        "is fasting required for chest xray"
+      ],
+      "responses": [
+        "Fasting is NOT required before the test. You may eat or drink before coming for the medical examination.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info93",
+      "patterns": [
+        "what can xrays be used for"
+      ],
+      "responses": [
+        "X-rays can be used to examine most areas of the body. They're mainly used to look at the bones and joints, although they're sometimes used to detect problems affecting soft tissue, such as internal organs. Problems that may be detected during an X-ray include - bone fractures and breaks.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info94",
+      "patterns": [
+        "does radiation stay in your body forever"
+      ],
+      "responses": [
+        "The radiation does not  stay in the body after X-rays.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info97",
+      "patterns": [
+        "how does xray work"
+      ],
+      "responses": [
+        "An x-ray examination creates images of your internal organs or bones to help diagnose conditions or injuries. A special machine emits (puts out) a small amount of ionising radiation. This radiation passes through your body and is captured on a special device to produce the image.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info98",
+      "patterns": [
+        "would low radiation affect the image of the given xray"
+      ],
+      "responses": [
+        "We use digital radiography plates which allows us to cut off the radiation dosage to get better image quality.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info99",
+      "patterns": [
+        "can too many xrays harm you"
+      ],
+      "responses": [
+        "We use a lot of x-rays in medicine and in other places (like airports, metros). Too much radiation exposure over time definitely can have adverse effects on health. So you're right to be careful, and to ask if you really need a test that involves radiation when your doctor orders one.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info100",
+      "patterns": [
+        "are prices vary if my home is at the farther location"
+      ],
+      "responses": [
+        "Prices are not affected by any other factors Rs. 1500 for single view(for xrays) and Rs. 950 for ecg.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info101",
+      "patterns": [
+        "can i take xray with shirt on"
+      ],
+      "responses": [
+        "It's a good idea to wear loose comfortable clothes, as you may be able to wear these during the X-ray. Try to avoid wearing jewellery and clothes containing metal (such as zips), as these will need to be removed.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info102",
+      "patterns": [
+        "is it necessary to remove clothes for xray"
+      ],
+      "responses": [
+        "You don't usually need to do anything special to prepare for an X-ray. It's a good idea to wear loose comfortable clothes, as you may be able to wear these during the X-ray. Try to avoid wearing jewellery and clothes containing metal (such as zips), as these will need to be removed.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info103",
+      "patterns": [
+        "how can i protect myself from xray radiation"
+      ],
+      "responses": [
+        "Keeping the time of exposure to a minimum, Maintaining distance from the source, When appropriate, placing a shield between yourself and the source, and Protecting yourself against radioactive contamination by using proper protective clothing.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info104",
+      "patterns": [
+        "what is xray radiation safety measures"
+      ],
+      "responses": [
+        "If anyone is required to support a patient or film during x-ray exposure, he/she must wear a lead apron and lead gloves and avoid the direct beam by standing to one side and away from the x-ray tube. Use collimation on the field size or the area necessary for the particular examination.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info106",
+      "patterns": [
+        "is urine pressure required for the given xray"
+      ],
+      "responses": [
+        "No, urine pressure is not required.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info107",
+      "patterns": [
+        "what is the procedure for an xray"
+      ],
+      "responses": [
+        "In the procedure, a machine sends X-ray beams through your body. The resulting images are recorded either on film or by a computer. X-ray images show the body in shades of black and white, because different tissues absorb different amounts of radiation.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info109",
+      "patterns": [
+        "how much electricity would be required for xray machine"
+      ],
+      "responses": [
+        "Less than a unit.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info120",
+      "patterns": [
+        "what materials show up on xray"
+      ],
+      "responses": [
+        "X-ray beams pass through your body, and they are absorbed in different amounts depending on the density of the material they pass through. Dense materials, such as bone and metal, show up as white on X-rays. The air in your lungs shows up as black. Fat and muscle appear as shades of gray.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info112",
+      "patterns": [
+        "can i undergo xray investigations while i am pregnant"
+      ],
+      "responses": [
+        "Yes, but with certain precautions.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info122",
+      "patterns": [
+        "can too many xrays harm me"
+      ],
+      "responses": [
+        "Repeated exposure to  X-rays over years may result in various health problems including head and neck tumors and various systemic problems.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info125",
+      "patterns": [
+        "how do xrays damage the body"
+      ],
+      "responses": [
+        "While X-rays are linked to a slightly increased risk of cancer, there is an extremely low risk of short-term side effects. Exposure to high radiation levels can have a range of effects, such as vomiting, bleeding, fainting, hair loss, and the loss of skin and hair.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info114",
+      "patterns": [
+        "will an xray show a pinched nerve"
+      ],
+      "responses": [
+        "According to the American Academy of Orthopaedic Surgeons, a doctor may take an X-ray, a computed tomography (CT) scan, or a magnetic resonance imaging (MRI) scan to find the cause of the pinched nerve.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info115",
+      "patterns": [
+        "can i eat before a stomach xray"
+      ],
+      "responses": [
+        "No, minimum 4 hours of fasting is required for abdominal X-rays",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info127",
+      "patterns": [
+        "what is the proper or safe amount of time to wait to repeat this type of xray"
+      ],
+      "responses": [
+        "There is no specific time period recommended between radiographs.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info128",
+      "patterns": [
+        "would radiations penetrate through floors and ceilings"
+      ],
+      "responses": [
+        "No the xrays can travel to 4 ft only.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info129",
+      "patterns": [
+        "how are xrays helpful"
+      ],
+      "responses": [
+        "They are used to non invasively and painlessly help to diagnose disease and monitor therapy; support medical and surgical treatment planning; and. guide medical personnel as they insert catheters, stents, or other devices inside the body, treat tumors, or remove blood clots or other blockages.",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info130",
+      "patterns": [
+        "can radiation exposure lead to any kind of burns or rashes or hair loss on the area being scanned"
+      ],
+      "responses": [
+        "No, the machines we use are low dose and X-rays do not cause burns or rashes.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info131",
+      "patterns": [
+        "what is not visible in xray"
+      ],
+      "responses": [
+        "Without seeing images of the organs and/or tissues in question, your doctor will likely not be able to confidently diagnose your condition and plan your treatment. An X-ray can detect broken bones, tumors, and even an object that is lodged inside the body.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info132",
+      "patterns": [
+        "what are xrays used to diagnose"
+      ],
+      "responses": [
+        "X-ray scans can diagnose possibly lung related infections, bone fractures and bone related pathologies, perforations, stones, fluid and gas accumulations.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info136",
+      "patterns": [
+        "what is the correct time for xray"
+      ],
+      "responses": [
+        "It usually takes less than 15 minutes for an entire X-ray procedure. This depends on the number of parts of your body being examined and your mobility; that is, your ability to move about, and your general health.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info137",
+      "patterns": [
+        "what is an xray simple definition"
+      ],
+      "responses": [
+        "X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white. ... The most familiar use of x-rays is checking for fractures (broken bones), but x-rays are also used in other ways",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info139",
+      "patterns": [
+        "how much time xray process takes"
+      ],
+      "responses": [
+        "It usually takes less than 15 minutes for an entire X-ray procedure. This depends on the number of parts of your body being examined and your mobility; that is, your ability to move about, and your general health.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info140",
+      "patterns": [
+        "do xrays require fasting"
+      ],
+      "responses": [
+        "If you're having an X-ray to examine your gastrointestinal tract, your doctor may ask you to fast for a certain amount of time beforehand. You will need to avoid eating anything while you fast. You may also need to avoid or limit drinking certain liquids.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info141",
+      "patterns": [
+        "what are the preparations for the tests that are to be conducted"
+      ],
+      "responses": [
+        "No as such  preparations are required for both xray and ecg.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info142",
+      "patterns": [
+        "how often can you get an xray"
+      ],
+      "responses": [
+        "In the case of standard procedures, there is no or negligible chance of risk. It will not matter to you if you are going through ten x-rays in a year or two x-rays in a year. You have to understand that the frequency of the radiation doesn't matter.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info143",
+      "patterns": [
+        "is there any medicine which is to be taken prior to xray"
+      ],
+      "responses": [
+        "No, in most cases there are no such needs.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info145",
+      "patterns": [
+        "how do i know when to get an xray"
+      ],
+      "responses": [
+        "X-rays can be used to confirm or detect several conditions, including injuries, bronchitis, and digestive issues. You may receive an x-ray if your provider suspects - Fracture, Bone deformity, Healing bone.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info147",
+      "patterns": [
+        "in what time the xray will be done"
+      ],
+      "responses": [
+        "The amount of time depends on the imaging exam performed. Most general x-ray exams take no more than 15 minutes.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info148",
+      "patterns": [
+        "how do i prepare for an xray"
+      ],
+      "responses": [
+        "In general, you undress whatever part of your body needs examination. You may wear a gown during the exam, depending on which area is being X-rayed. You may also be asked to remove jewelry, eyeglasses and any metal objects because they can show up on an X-ray.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info149",
+      "patterns": [
+        "why should i use xray"
+      ],
+      "responses": [
+        "The most familiar use of x-rays is checking for fractures (broken bones), but x-rays are also used in other ways. For example, chest x-rays can spot pneumonia. Mammograms use x-rays to look for breast cancer. When you have an x-ray, you may wear a lead apron to protect certain parts of your body.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info157",
+      "patterns": [
+        "does xray always show arthritis"
+      ],
+      "responses": [
+        "X-rays are used to diagnose osteoarthritis, typically revealing an uneven loss of cartilage and spurring of the underlying bone. Sometimes blood tests and joint aspiration (using a needle to draw a small sample of fluid from the joint for testing) are used to rule out other types of arthritis.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+     {
+      "tag": "info159",
+      "patterns": [
+        "should xray be done empty stomach"
+      ],
+      "responses": [
+        "For general x-ray exams (i.e., chest, hands, feet, and spine.) patients may eat or drink prior to the exam. For all other imaging procedures that require patients to not eat or drink, the reason is usually because the procedure is best performed on an empty stomach.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+
+    {
+      "tag": "info2",
+      "patterns": [
+        "what is the first sign of too much radiation"
+      ],
+      "responses": [
+        "Dizziness and disorientation. Weakness and fatigue. Hair loss. Bloody vomit and stools from internal bleeding.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info3",
+      "patterns": [
+        "would radiations penetrate through walls of the room in which procedure is being done"
+      ],
+      "responses": [
+        "Well it depends on the thickness of the walls but in most cases its negligible.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info4",
+      "patterns": [
+        "what is ecg explain its functioning and use"
+      ],
+      "responses": [
+        "An electrocardiogram (ECG or EKG) is a test that checks how your heart is functioning by measuring the electrical activity of the heart. With each heart beat, an electrical impulse (or wave) travels through your heart. This wave causes the muscle to squeeze and pump blood from the heart.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info5",
+      "patterns": [
+        "is the whole process safe and sanitized"
+      ],
+      "responses": [
+        "Yes, sanitization before eyes is provided.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info8",
+      "patterns": [
+        "can we perform procedures in other medicare facilities"
+      ],
+      "responses": [
+        "Yes we can organise if the hospital allows.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info9",
+      "patterns": [
+        "what would be patient getting if he gets tests done"
+      ],
+      "responses": [
+        "Digital copy immediately after the test is done, report after one hour(digital). If patient requires hard copy it would be delivered within 12 hours.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    }, 
+    {
+      "tag": "info11",
+      "patterns": [
+        "can i wear a bra during ecg"
+      ],
+      "responses": [
+        "Underwire in a bra can interfere with the ECG reading, so you may be asked to remove it before the test.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info13",
+      "patterns": [
+        "do you also have clinic services"
+      ],
+      "responses": [
+        "Currently we provide home services only, clinic services will be available soon.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    }, 
+    {
+      "tag": "info15",
+      "patterns": [
+        "survival time of radiations in patient’s home and surroundings"
+      ],
+      "responses": [
+        "Hardly 5-10 mins depending on the exposure.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info21",
+      "patterns": [
+        "how do you flush radiation from my body"
+      ],
+      "responses": [
+        "If you're exposed to significant radiation, your thyroid will absorb radioactive iodine (radioiodine) just as it would other forms of iodine. The radioiodine is eventually cleared from the body in urine. If you take potassium iodide, it may fill \\\"vacancies\\\" in the thyroid and prevent the absorption of radio-iodine",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info29",
+      "patterns": [
+        "can ecg detect heart blockage"
+      ],
+      "responses": [
+        "An ECG Can Recognize the Signs of Blocked Arteries. The electrical signals may be fainter or diverge from expected patterns.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info31",
+      "patterns": [
+        "do you provide with complete health profiles with and without lab tests"
+      ],
+      "responses": [
+        "We offer health check up packages by our partners, please contact us for more info.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info34",
+      "patterns": [
+        "can radiation cause cancer later in life"
+      ],
+      "responses": [
+        "Doctors have known for a long time that radiation can cause cancer. And research has shown that radiation treatment for one cancer can raise the risk for developing a different cancer later. Factors that can affect that risk include the amount of radiation used and the area that was treated.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info38",
+      "patterns": [
+        "what are some risks associated with diagnostic imaging"
+      ],
+      "responses": [
+        "A small increase in the possibility that a person exposed to X-rays will develop cancer later in life.  Tissue effects such as cataracts, skin reddening, and hair loss, which occur at relatively high levels of radiation exposure and are rare for many types of imaging exams.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info39",
+      "patterns": [
+        "how do you prepare a patient for an ecg"
+      ],
+      "responses": [
+        "1. Avoid oily or greasy skin creams and lotions the day of the test because they can keep the electrodes from making contact with your skin.         2. Avoid full-length hosiery, because electrodes need to be placed directly on your legs.        3. Wear a shirt that you can remove easily to place the leads on your chest.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info43",
+      "patterns": [
+        "does an ecg pain"
+      ],
+      "responses": [
+        "NO, ECG is a painless non invasive procedure",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info46",
+      "patterns": [
+        "how do you carry the machines"
+      ],
+      "responses": [
+        "We carry specialized protected cases to carry our machines.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info52",
+      "patterns": [
+        "what are your certifications"
+      ],
+      "responses": [
+        "We are ISO 9001 and 27001 certified company",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info54",
+      "patterns": [
+        "what are the requirements for ecg"
+      ],
+      "responses": [
+        "There is no such requirements.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info56",
+      "patterns": [
+        "are ecg accurate"
+      ],
+      "responses": [
+        "An ECG is pretty accurate at diagnosing many types of heart disease, although it doesn't always pick up every heart problem. You may have a perfectly normal ECG, yet still have a heart condition.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info57",
+      "patterns": [
+        "can you remove radiation from water"
+      ],
+      "responses": [
+        "Distillation removed salts, heavy metals, and radioactive fallout (since water itself cannot become radioactive, the radioactive components are referred to as radioactive fallout). Filtering the water will also remove the radioactive fallout",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info58",
+      "patterns": [
+        "what technology we use for image processing and report delivery"
+      ],
+      "responses": [
+        "We use our own AI enabled platform  for image processing and reporting by radiologists.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info62",
+      "patterns": [
+        "how safe is home health services"
+      ],
+      "responses": [
+        "To ensure the safety and sanity for our patients- we practice sanitization before eyes, vaccinated staff. Our all equipments are tested and maintained regularly.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info63",
+      "patterns": [
+        "what if the consulting doctor of the patient wants to discuss with our radiologist"
+      ],
+      "responses": [
+        "That can be organised. Please contact our health care center.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info66",
+      "patterns": [
+        "can you still have heart problems if your ecg is normal"
+      ],
+      "responses": [
+        "Yes, you can have heart conditions even if your ECG is normal.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info70",
+      "patterns": [
+        "how many people will come and how"
+      ],
+      "responses": [
+        "a single person would be coming with all the necessary thing required for procedures to be done.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info78",
+      "patterns": [
+        "which procedures are associated with higher radiations doses"
+      ],
+      "responses": [
+        "Computed tomography (CT) and interventional procedures such as angiography and cardiac catheterisation are associated with higher doses of radiation",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info79",
+      "patterns": [
+        "does the patient require to skip his medications"
+      ],
+      "responses": [
+        "No, the patient require to skip his medications.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info81",
+      "patterns": [
+        "what mode of payments do we accept"
+      ],
+      "responses": [
+        "we accept all modes of payments: cash,UPI, online payments and cards.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info83",
+      "patterns": [
+        "can your machine cause short circuits or faults in electric supply"
+      ],
+      "responses": [
+        "No the machines we use run on very low electricity for very short period of time.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info84",
+      "patterns": [
+        "how do home health services work"
+      ],
+      "responses": [
+        "As soon as you create a booking with us, one of our healthcare professional will come at your home in given time with the required equipments.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info85",
+      "patterns": [
+        "how long does xray radiation stay in the body"
+      ],
+      "responses": [
+        "The amount of radiation exposure from an imaging test depends on the imaging test used and what part of the body is being tested. For instance A single chest x-ray exposes the patient to about 0.1 mSv. This is about the same amount of radiation people are exposed to naturally over the course of about 10 days.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info86",
+      "patterns": [
+        "do price vary depending on weather conditions"
+      ],
+      "responses": [
+        "Prices are not affected by any other factors.  Rs. 1500 for single view(for xrays) and Rs. 950 for ecg.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info87",
+      "patterns": [
+        "what would be tat for the complete process after the patient places the call"
+      ],
+      "responses": [
+        "Half hour after the exposure time.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info91",
+      "patterns": [
+        "how will i know if i am getting the radiation dose that is needed and no more"
+      ],
+      "responses": [
+        "We abide by the principle of ALARA – as low as reasonably achievable.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info92",
+      "patterns": [
+        "do you provide protection for pregnant family members other than the patients"
+      ],
+      "responses": [
+        "Pregnant family members should not be in the same room  in which the xray is being carried out.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info95",
+      "patterns": [
+        "what is arrhythmia"
+      ],
+      "responses": [
+        "Arrhythmia occur when the electrical impulses that coordinate your heartbeats don't work properly, causing your heart to beat too fast, too slow or irregularly.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info96",
+      "patterns": [
+        "what happens if you are exposed to too much radiation"
+      ],
+      "responses": [
+        "Exposure to very high levels of radiation, such as being close to an atomic blast, can cause acute health effects such as skin burns and acute radiation syndrome (“radiation sickness\\\"). It can also result in long-term health effects such as cancer and cardiovascular disease.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info105",
+      "patterns": [
+        "can patient get both soft and hard copies of the films and reports"
+      ],
+      "responses": [
+        "Yes, but preferably soft copies.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info110",
+      "patterns": [
+        "what are the limitations of an ecg"
+      ],
+      "responses": [
+        "An ECG has its limitations: The ECG reveals the heart rate and rhythm only during the few seconds it takes to record the tracing. If an arrhythmia (heart rhythm irregularity) occurs only intermittently, an ECG might not pick it up, and ambulatory monitoring may be required.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info111",
+      "patterns": [
+        "is your staff vaccinated"
+      ],
+      "responses": [
+        "Yes, our all staff is vaccinated",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info113",
+      "patterns": [
+        "what machines are you using for ecg"
+      ],
+      "responses": [
+        "We use the smallest ECG machine with 12 electrodes which provides high quality ECG readings.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info116",
+      "patterns": [
+        "how much radiation is acceptable"
+      ],
+      "responses": [
+        "There are no prescribed limits on radiation doses to patients. This means that no amount of radiation is considered too much for a patient when the procedure is justified by the doctor.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info117",
+      "patterns": [
+        "what are your charges for ecg"
+      ],
+      "responses": [
+        "Rs. 950",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info118",
+      "patterns": [
+        "is a normal ecg good"
+      ],
+      "responses": [
+        "The ECG is a simple and useful test, but it has some limitations. An abnormal reading does not necessarily mean that there is something wrong with the heart. On the other hand, some people may have a normal ECG recording even though they do have a heart disease.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info119",
+      "patterns": [
+        "what should you not do before an ecg"
+      ],
+      "responses": [
+        "Avoid drinking cold water or exercising before your ECG. Drinking cold water can cause changes in the electrical patterns that the test records. Exercise can increase your heart rate and affect the test results.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info121",
+      "patterns": [
+        "what would be the time difference if patient goes for online film and reports"
+      ],
+      "responses": [
+        "The patient will get online reports within 1 hour , while physical delivery may take 12-24 hours",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info123",
+      "patterns": [
+        "do you get ecg results straight away"
+      ],
+      "responses": [
+        "An ECG usually takes about 20 minutes.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info124",
+      "patterns": [
+        "why do i require ecg"
+      ],
+      "responses": [
+        "ECG is used to monitor your heart conditions for routine checkup. However a doctor may prescribe ECG regularly to monitor your heart if you are a cardiac patient or had cardiac arrest in past.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+
+    {
+      "tag": "info133",
+      "patterns": [
+        "does ecg gel cause reaction on your skin"
+      ],
+      "responses": [
+        "No, the gel used for ECG is regular ultrasonic gel that is non reactive. Well, in some cases it may cause little itching depending on skin type.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info17",
+      "patterns": [
+        "how does ecg work"
+      ],
+      "responses": [
+        "An electrocardiogram (ECG or EKG) records the electrical signal from your heart to check for different heart conditions",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info134",
+      "patterns": [
+        "how does xray radiation affect the body"
+      ],
+      "responses": [
+        "While X-rays are linked to a slightly increased risk of cancer, there is an extremely low risk of short-term side effects. Exposure to high radiation levels can have a range of effects, such as vomiting, bleeding, fainting, hair loss, and the loss of skin and hair.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info135",
+      "patterns": [
+        "what are the possible effects of radiation on my health"
+      ],
+      "responses": [
+        "Most of our diagnostic investigations will not have an adverse effect.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info138",
+      "patterns": [
+        "how do i rid my body of radiation"
+      ],
+      "responses": [
+        "Staying inside will reduce your exposure to radiation. Close windows and doors. Take a shower or wipe exposed parts of your body with a damp cloth.  Drink bottled water and eat food in sealed containers.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info144",
+      "patterns": [
+        "does ecg have any side effects"
+      ],
+      "responses": [
+        "No, ECG has no such side effects on health.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info146",
+      "patterns": [
+        "how much time will it take to provide film with reports"
+      ],
+      "responses": [
+        "12 hours is our TAT",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info150",
+      "patterns": [
+        "what do you wear for an ecg"
+      ],
+      "responses": [
+        "When you go for an ECG test, you will need to remove your upper clothing so that electrodes can be attached to your chest and limbs.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info151",
+      "patterns": [
+        "what is home ecg and how does it work"
+      ],
+      "responses": [
+        "Home ECG is same as clinical ECG with comfort of your home. We use the smallest 12 lead ECG for the purpose.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info152",
+      "patterns": [
+        "safety of your staff members"
+      ],
+      "responses": [
+        "The staff would be getting their identity identified through a unique code which will be shared with you at time of booking.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info153",
+      "patterns": [
+        "is radiation harmful for pets or newborns "
+      ],
+      "responses": [
+        "They should not be in the same room, if they are outside of 4 ft diameter, they are safe.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info154",
+      "patterns": [
+        "can yo do xrays in buildings with no lifts"
+      ],
+      "responses": [
+        "Yes, we use specialized trolley bags which can climb stairs easily.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info155",
+      "patterns": [
+        "what if my ecg is normal"
+      ],
+      "responses": [
+        "If your electrocardiogram is normal, you may not need any other tests. If the results show an abnormality with your heart, you may need another ECG or other diagnostic tests, such as an echocardiogram. Treatment depends on what's causing your signs and symptoms.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info156",
+      "patterns": [
+        "can i get electric shock while ecg"
+      ],
+      "responses": [
+        "No, electricity is not involved in the procedure for ECG, and its done with a device that runs on a single battery.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info158",
+      "patterns": [
+        "how will you be carrying the procedures if the patient is unconscious"
+      ],
+      "responses": [
+        "The procedures may not require patient to be conscious, help may be required in such cases for IP placement.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info160",
+      "patterns": [
+        "what are the risks of using radiation as a medical tool"
+      ],
+      "responses": [
+        "Very high doses of radiation cause damage to human cells, as evidenced by skin burns, loss of hair, and increased incidence of cancer. Because high doses of radiation can cause cancer, it is therefore generally assumed that low doses may also cause cancer.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info161",
+      "patterns": [
+        "what is the procedure for ecg"
+      ],
+      "responses": [
+        "An ECG is done by putting ECG leads on your chest and limbs.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info162",
+      "patterns": [
+        "in how much time can i get my ecg reports"
+      ],
+      "responses": [
+        "You can get the ECG within 30-60 minutes, and reports would be available in 12 hours.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info163",
+      "patterns": [
+        "is ecg test harmful"
+      ],
+      "responses": [
+        "No, ECG don't harm.",
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Go Back"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "info164",
+      "patterns": [
+        "Get started"
+      ],
+      "responses": [
+        "Call us on our toll-free number for any query: 18002702900",
+        {
+          "buttons": [
+            "Our Services",
+            {
+              "title": "Know more",
+              "payload": "https://xraidigital.com/Home/Blog"
+            },
+            "Go Back"
+          ]
+        }
+      ]
+    }
+
+
+  ]
+}

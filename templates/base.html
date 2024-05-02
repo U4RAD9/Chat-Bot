@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/logo.svg') }}"/>
+                </div>
+                <div class="chatbox__content--header">
+                    <p class="chatbox__description--header">Call us on our toll-free number: 18002702900 for any query</p>
+                    <h3 class="chatbox__heading--header">XRAi chat assistant</h3>
+                    <p class="chatbox__description--header">Hi. My name is Rasa. I'm here to assist you.!</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div>
+                    <h3 class="chatbox__heading--header">XRAi chat assistant</h3>
+                </div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" id="chat-input" placeholder="Ask anything...">
+                <p id="p"></p>
+                <button class="chatbox__send--footer send__button">Send</button>
+                <!--button for voice to text-->
+                <button class="chatbox__send--footer mic__button"><img src="{{ url_for('static', filename='images/microphone.png') }}" /></button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.png') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
